@@ -9,7 +9,7 @@ const PORT = (process.env.PORT || 8080);
 // App
 const app = express();
 app.get('/', (req, res) => {
-    res.send('massa!!');
+    res.send('http://www.oprojetista.com.br/images/produtos/9000HBg.jpg');
 });
 
 app.get('/validar/:cpf', (req, res) => {
